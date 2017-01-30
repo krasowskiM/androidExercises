@@ -35,9 +35,9 @@ public class CalculatorActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.calculator_activity);
         initButtons();
-    }+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ++----*********
+    }
 
-    private void initButtons(){
+    private void initButtons() {
         Button buttonZero = (Button) findViewById(R.id.button_zero);
         Button buttonOne = (Button) findViewById(R.id.button_one);
         Button buttonTwo = (Button) findViewById(R.id.button_two);
@@ -64,12 +64,12 @@ public class CalculatorActivity extends AppCompatActivity {
         buttons.add(buttonDot);
         buttons.add(buttonEquals);
 
-        for(int i = 0; i < buttons.size(); i++){
+        for (int i = 0; i < buttons.size(); i++) {
             buttons.get(i).setOnClickListener(new OnButtonClickListener(i));
         }
     }
 
-    private void onButtonClick(int position){
+    private void onButtonClick(int position) {
         Log.e("aaaa", "Clicked button on position" + position);
     }
 
