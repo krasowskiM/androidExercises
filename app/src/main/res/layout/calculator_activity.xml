@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/calc_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="5dp"/>
+
+    <GridLayout
+        android:id="@+id/calc_button_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:rowCount="4">
+        <Button
+            android:id="@+id/button_seven"
+            android:text="7"
+            android:layout_column="0"
+            android:layout_row="0"/>
+        <Button
+            android:id="@+id/button_eight"
+            android:text="8"
+            android:layout_column="1"
+            android:layout_row="0"/>
+        <Button
+            android:id="@+id/button_nine"
+            android:text="9"
+            android:layout_column="2"
+            android:layout_row="0"/>
+        <Button
+            android:id="@+id/button_four"
+            android:text="4"
+            android:layout_column="0"
+            android:layout_row="1"/>
+        <Button
+            android:id="@+id/button_five"
+            android:text="5"
+            android:layout_column="1"
+            android:layout_row="1"/>
+        <Button
+            android:id="@+id/button_six"
+            android:text="6"
+            android:layout_column="2"
+            android:layout_row="1"/>
+        <Button
+            android:id="@+id/button_one"
+            android:text="1"
+            android:layout_column="0"
+            android:layout_row="2"/>
+        <Button
+            android:id="@+id/button_two"
+            android:text="2"
+            android:layout_column="1"
+            android:layout_row="2"/>
+        <Button
+            android:id="@+id/button_three"
+            android:text="3"
+            android:layout_column="2"
+            android:layout_row="2"/>
+        <Button
+            android:id="@+id/button_dot"
+            android:text="."
+            android:layout_column="0"
+            android:layout_row="3"/>
+        <Button
+            android:id="@+id/button_zero"
+            android:text="0"
+            android:layout_column="1"
+            android:layout_row="3"/>
+        <Button
+            android:id="@+id/button_equals"
+            android:text="="
+            android:layout_column="2"
+            android:layout_row="3"/>
+
+
+
+
+
+
+
+
+    </GridLayout>
+</LinearLayout>
